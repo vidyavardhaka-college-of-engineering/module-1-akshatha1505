@@ -7,7 +7,7 @@ int main()
    int i;
    float x;
    char ch;
-   printf("Enter an integer value, floating point value and a character");
+   printf("");
    scanf("%d%f %c",&i,&x,&ch);   // correct the code
    i = x;    // correct the code
    printf("i value is: %d ",i);
