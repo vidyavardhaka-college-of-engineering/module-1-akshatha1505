@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Read and  Print a number",
+      "setup": "cc Program-1.c",
+      "run": "./a.out",
+      "input": "5",
+      "output": "You entered: 5",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Sum of two numbers",
+      "setup": "cc Program-2.c",
+      "run": "./a.out",
+      "input": "6 4",
+      "output": "6 + 4 = 10",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Product of two Floating point numbers",
+      "setup": "cc Program-3.c",
+      "run": "./a.out",
+      "input": "2.4 1.12",
+      "output": "Product = 2.69",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Finding the quotient and remainder",
+      "setup": "cc Program-4.c",
+      "run": "./a.out",
+      "input": "25 4",
+      "output": "Quotient = 6 Remainder = 1",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Evaluation of an equation",
+      "setup": "cc Program-5.c",
+      "run": "./a.out",
+      "input": "5 7",
+      "output": "7 13  6 14",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Evaluation of mathematical Expression",
+      "setup": "cc Program-6.c",
+      "run": "./a.out",
+      "input": "10 2",
+      "output": "Arithmetic expression evaluation of 10 and 2 is = 20",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Different data types",
+      "setup": "cc Program-7.c",
+      "run": "./a.out",
+      "input": "95 90.99 A",
+      "output": "i value is: 90 x value is : 90.000000 i value is: 65",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Increment and decrement operator ",
+      "setup": "cc Program-8.c",
+      "run": "./a.out",
+      "input": "12",
+      "output": "y = 13 y = 13 y = 13 y = 13",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Finding slope and midpoint",
+      "setup": "cc Program-9.c",
+      "run": "./a.out",
+      "input": "3.45 6.56 4.78 8.65",
+      "output": "Slope : 1.57 Midpoint : (4.12,7.60)",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Using Inbuilt Function",
+      "setup": "cc Program-10.c -lm",
+      "run": "./a.out",
+      "input": "12",
+      "output": "Square root of 12.00 = 3.46",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    }
+  ]
+}
