@@ -9,7 +9,7 @@ int main()
     printf("y = %d  ",y=++x);
     printf("y = %d  ",y=x++);
     printf("y = %d  ",y=--x);
-    printf("y = %d  ",y=x--);// correct the code 
+    printf("y = %d",y=x--);// correct the code 
     return 0;
 }
 
