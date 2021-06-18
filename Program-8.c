@@ -4,7 +4,7 @@
 int main()
 {
     int x, y;
-    printf(" Enter the value of x: ");
+    printf(" Enter the value of x:");
     scanf("%d",&x); // insert the missing code
     printf("y = %d  ",y=++x);
     printf("y = %d  ",y=x++);
