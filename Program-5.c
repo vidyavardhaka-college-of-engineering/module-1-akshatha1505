@@ -1,7 +1,7 @@
 //INPUT: 5 7
 //OUTPUT: 7 13   6 14
 #include<stdio.h> 
- int main ()
+int main ()
 { 
 int i,j; // insert the missing code
 printf("Enter the values of i and j");
