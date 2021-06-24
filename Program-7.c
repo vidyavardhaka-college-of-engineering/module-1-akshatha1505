@@ -12,7 +12,7 @@ int main()
    i = x;     // correct the code
    printf("i value is: %d ",i);
    x = i ;
-   printf("x value is: %f ",x);
+   printf("x value is : %f ",x);
    i = ch ;
    printf("i value is: %d ",i);   
 return 0;
